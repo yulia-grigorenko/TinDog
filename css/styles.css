@@ -161,3 +161,39 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.fa-facebook-f {
+  width: 1.5rem !important;
+  height: 1.5rem;
+}
+
+.fa-twitter {
+  width: 1.5rem !important;
+  height: 1.5rem;
+}
+
+.fa-instagram {
+  width: 1.5rem !important;
+  height: 1.5rem;
+}
+
+.fa-envelope {
+  width: 1.5rem !important;
+  height: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
